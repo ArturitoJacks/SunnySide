@@ -25,9 +25,10 @@
       </tr>
       <tr>
         <td>Genero</td>
-        <td><select class="" name="gender">
-          <option <?php echo $animal->name=='Macho'?'Selected':''; ?>value="Macho">Macho</option>
-          <option <?php echo $animal->name=='Hembra'?'Selected':''; ?>value="Hembra">Hembra</option>
+        <td>
+        <select class="" name="gender">
+        <option <?php echo $animal->name=='Macho'?'Selected':'';?>value='Macho'>Macho</option>
+        <option <?php echo $animal->name=='Hembra'?'Selected':'';?> value='Hembra'>Hembra</option>
         </select>
       </td>
       </tr>

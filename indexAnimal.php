@@ -10,6 +10,7 @@
 
     <title>Pet, Shop!</title>
   </head>
+  <body>
   <header>
           <!-- Image and text -->
       <nav class="navbar navbar-light bg-light">
@@ -20,7 +21,6 @@
         <a class="navbar-brand" href="view/indexAnimal.php">Animales</a>
       </nav>
   </header>
-  <body>
     <?php
     if(!isset($_REQUEST['controller'])){
       require_once 'controller/animal_controller.php';

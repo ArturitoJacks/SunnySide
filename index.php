@@ -10,6 +10,7 @@
 
     <title>Pet, Shop!</title>
   </head>
+  <body>
   <header>
           <!-- Image and text -->
       <nav class="navbar navbar-light bg-light">
@@ -18,9 +19,9 @@
           Pet´s Shop
         </a>
         <a class="navbar-brand" href="indexAnimal.php">Animales</a>
+        <a class="navbar-brand" href="indexUser.php">Usuarios</a>
       </nav>
   </header>
-  <body>
     
 
     <!-- Optional JavaScript -->
